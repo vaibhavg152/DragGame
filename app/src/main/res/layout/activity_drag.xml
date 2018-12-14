@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_weight="2"
+        android:id="@+id/img_home"
+        android:src="@drawable/home_clip_art"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgStripRed"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:src="@drawable/red_white_gradient"/>
+
+        <ImageView
+            android:id="@+id/imgStripBlue"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:src="@drawable/blue_white_gradient"/>
+
+        <ImageView
+            android:id="@+id/imgStripGreen"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:src="@drawable/green_white_gradient"/>
+
+        <ImageView
+            android:id="@+id/imgStripBlack"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/black_white_gradient"/>
+
+    </LinearLayout>
+
+</LinearLayout>
